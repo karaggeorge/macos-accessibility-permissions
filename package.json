@@ -1,0 +1,42 @@
+{
+  "name": "macos-accessibility-permissions",
+  "version": "1.0.0",
+  "description": "Check and request macOS accessibility permissions.",
+  "main": "index.js",
+  "repository": "https://github.com/karaggeorge/macos-accessibility-permissions",
+  "author": {
+    "name": "George Karagkiaouris",
+    "email": "gkaragkiaouris2@gmail.com",
+    "url": "https://gkaragkiaouris.tech"
+  },
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "index.js",
+    "permissions"
+  ],
+  "scripts": {
+    "test": "xo",
+    "build": "swiftc -o permissions main.swift",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "macos",
+    "swift",
+    "accessibility",
+    "permissions",
+    "ask",
+    "check"
+  ],
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "electron-util": "^0.13.1",
+    "execa": "^4.0.0",
+    "macos-version": "^5.2.0"
+  },
+  "devDependencies": {
+    "xo": "^0.25.3"
+  }
+}
