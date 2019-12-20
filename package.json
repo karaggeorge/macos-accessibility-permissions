@@ -2,7 +2,6 @@
   "name": "macos-accessibility-permissions",
   "version": "1.0.0",
   "description": "Check and request macOS accessibility permissions.",
-  "main": "index.js",
   "repository": "https://github.com/karaggeorge/macos-accessibility-permissions",
   "author": {
     "name": "George Karagkiaouris",
@@ -10,7 +9,6 @@
     "url": "https://gkaragkiaouris.tech"
   },
   "license": "MIT",
-  "private": false,
   "files": [
     "index.js",
     "permissions"
