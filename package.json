@@ -1,6 +1,6 @@
 {
   "name": "macos-accessibility-permissions",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check and request macOS accessibility permissions.",
   "repository": "https://github.com/karaggeorge/macos-accessibility-permissions",
   "author": {
