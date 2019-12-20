@@ -11,10 +11,11 @@
   "license": "MIT",
   "files": [
     "index.js",
+    "index.d.ts",
     "permissions"
   ],
   "scripts": {
-    "test": "xo",
+    "test": "xo && tsd",
     "build": "swiftc -o permissions main.swift",
     "prepublishOnly": "npm run build"
   },
@@ -35,6 +36,7 @@
     "macos-version": "^5.2.0"
   },
   "devDependencies": {
+    "tsd": "^0.11.0",
     "xo": "^0.25.3"
   }
 }
