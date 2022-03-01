@@ -1,7 +1,7 @@
-const path = require('path');
-const execa = require('execa');
-const electronUtil = require('electron-util/node');
-const macosVersion = require('macos-version');
+import path from 'path';
+import {execa} from 'execa';
+import electronUtil from 'electron-util/node';
+import {macosVersion} from 'macos-version';
 
 const binary = path.join(electronUtil.fixPathForAsarUnpack(__dirname), 'permissions');
 
