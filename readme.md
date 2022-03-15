@@ -33,9 +33,9 @@ hasPermissions()
 
 ## API
 
-### `hasPermissions({hasAsked: boolean}): boolean`
+### `hasPermissions({ask: boolean}): boolean`
 
-Returns `true` if the permissions are granted, and `false` otherwise. Optionally provide a `hasAsked` parameter to trigger the accessibility dialog
+Returns `true` if the permissions are granted, and `false` otherwise. Optionally provide a `ask` parameter to trigger the accessibility dialog
 
 ## Related
 
